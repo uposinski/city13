@@ -1305,34 +1305,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Czym jest DHCP?
+  - Question: "Je\u017Celi podczas pod\u0142\u0105czenia stacji dysk\xF3w elastycznych
+      1,44 MB kabel danych zostanie pod\u0142\u0105czony odwrotnie, to"
     Answers:
-    - "jest to protoku\u0142 klient/server"
-    - jest to router
-    - jest to system operacyjny
-    - jest to komputer
-    CorrectAnswer: 1
-  - Question: Jaka jest reprezentacja maski 16 bitowej?
-    Answers:
-    - 255.255.255.255
-    - 255.255.0.0
-    - 22.0.255.2
-    - 255.0.255.0
+    - "Od\u0142\u0105czy si\u0119 internet"
+    - "BIOS komputera zg\u0142osi b\u0142\u0105d pod\u0142\u0105czenia stacji dysk\xF3w"
+    - "Skaskuje si\u0119 system32"
+    - Wybuchnie komputer
     CorrectAnswer: 2
-  - Question: "Jak\u0105 funkcje pe\u0142ni brama domyslna?"
+  - Question: "Kt\xF3ra drukarka wykorzystuje technik\u0119 polegaj\u0105c\u0105
+      na przenoszeniu sta\u0142ego barwnika z ta\u015Bmy na papier odporny na wysok\u0105
+      temperatur\u0119?"
     Answers:
-    - tuttifrutti
-    - "Mo\u017Cna wej\u015B\u0107 do domu"
-    - Otwiera tajne grota
-    - "Brama domy\u015Blna pe\u0142ni funkcj\u0119 rutera"
+    - "Ig\u0142owa"
+    - Atramentowa
+    - Drukarka 3D
+    - Termosublimacyjna
     CorrectAnswer: 4
-  - Question: Czym jest DNS?
+  - Question: "Wska\u017C czynno\u015B\u0107 konserwacyjn\u0105, kt\xF3r\u0105 nale\u017Cy
+      wykona\u0107, je\u015Bli na wydruku drukarki atramentowej widoczne s\u0105
+      smugi, kolory wydruku s\u0105 niew\u0142a\u015Bciwe lub brakuje niekt\xF3rych
+      kolor\xF3w."
     Answers:
-    - "us\u0142uga zapewniaj\u0105ca powi\u0105zanie domeny z adresem IP danego serwera"
-    - Wtyczka do sieci
-    - DamageNotSet
-    - Gra planszowa
+    - "Czyszczenie g\u0142owicy drukuj\u0105cej"
+    - Wyrzucenie drukarki
+    - "Przeczyszczenie wilgotn\u0105 szmatk\u0105"
+    - Przedmuchanie kompresorem
     CorrectAnswer: 1
+  - Question: "Kt\xF3ra generacja Intela ma LGA 1150?"
+    Answers:
+    - 2th
+    - 7th
+    - 9th
+    - 4th
+    CorrectAnswer: 4
   options:
   - {fileID: 1222845392}
   - {fileID: 2080529585}
@@ -1342,7 +1348,7 @@ MonoBehaviour:
   QuestionTxt: {fileID: 1655453925}
   goodAnswerIndicator: {fileID: 251960768}
   badAnswerIndicator: {fileID: 994713434}
-  requiredCorrectAnswers: 3
+  requiredCorrectAnswers: 4
 --- !u!4 &1760281368
 Transform:
   m_ObjectHideFlags: 0

@@ -1326,13 +1326,6 @@ MonoBehaviour:
     - Otwiera tajne grota
     - "Brama domy\u015Blna pe\u0142ni funkcj\u0119 rutera"
     CorrectAnswer: 4
-  - Question: Czym jest DNS?
-    Answers:
-    - "us\u0142uga zapewniaj\u0105ca powi\u0105zanie domeny z adresem IP danego serwera"
-    - Wtyczka do sieci
-    - DamageNotSet
-    - Gra planszowa
-    CorrectAnswer: 1
   options:
   - {fileID: 1222845392}
   - {fileID: 2080529585}

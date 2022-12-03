@@ -1305,33 +1305,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Czym jest DHCP?
+  - Question: "Zmienna odnosz\u0105ca si\u0119 do liczb tylko ca\u0142kowitych okre\u015Blane
+      s\u0105 typem:"
     Answers:
-    - "jest to protoku\u0142 klient/server"
-    - jest to router
-    - jest to system operacyjny
-    - jest to komputer
+    - int
+    - char
+    - float
+    - void
     CorrectAnswer: 1
-  - Question: Jaka jest reprezentacja maski 16 bitowej?
+  - Question: "Jak si\u0119 tworzy funkcje w C++?"
     Answers:
-    - 255.255.255.255
-    - 255.255.0.0
-    - 22.0.255.2
-    - 255.0.255.0
+    - int i=0
+    - functionName()
+    - cout
+    - cin
     CorrectAnswer: 2
-  - Question: "Jak\u0105 funkcje pe\u0142ni brama domyslna?"
+  - Question: "Jak nazywa si\u0119 cecha programowania obiektowego, kt\xF3ra daje
+      nam mo\u017Cliwo\u015B\u0107 wykorzystania nowych klas w oparciu o stare klasy?"
     Answers:
-    - tuttifrutti
-    - "Mo\u017Cna wej\u015B\u0107 do domu"
-    - Otwiera tajne grota
-    - "Brama domy\u015Blna pe\u0142ni funkcj\u0119 rutera"
-    CorrectAnswer: 4
-  - Question: Czym jest DNS?
+    - "Przyja\u017A\u0144"
+    - Dziedziczenie
+    - Unie
+    - Float
+    CorrectAnswer: 2
+  - Question: 'Char to typ danych:'
     Answers:
-    - "us\u0142uga zapewniaj\u0105ca powi\u0105zanie domeny z adresem IP danego serwera"
-    - Wtyczka do sieci
-    - DamageNotSet
-    - Gra planszowa
+    - znakowych
+    - "\u0142a\u0144cuszkowych"
+    - takich jak float
+    - liczb rzeczywistych
     CorrectAnswer: 1
   options:
   - {fileID: 1222845392}
@@ -1342,7 +1344,7 @@ MonoBehaviour:
   QuestionTxt: {fileID: 1655453925}
   goodAnswerIndicator: {fileID: 251960768}
   badAnswerIndicator: {fileID: 994713434}
-  requiredCorrectAnswers: 3
+  requiredCorrectAnswers: 4
 --- !u!4 &1760281368
 Transform:
   m_ObjectHideFlags: 0

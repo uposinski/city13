@@ -1305,34 +1305,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Czym jest DHCP?
+  - Question: "Dane s\u0105 cztery liczby zapisane za pomoc\u0105 wyra\u017Ce\u0144
+      arytmetycznych: x = -62,5+30; y = -14,4-12,6; t = -12 : 0,3; u = -8.02*6. Kt\xF3ra
+      z nich jest najwi\u0119ksza?"
     Answers:
-    - "jest to protoku\u0142 klient/server"
-    - jest to router
-    - jest to system operacyjny
-    - jest to komputer
-    CorrectAnswer: 1
-  - Question: Jaka jest reprezentacja maski 16 bitowej?
-    Answers:
-    - 255.255.255.255
-    - 255.255.0.0
-    - 22.0.255.2
-    - 255.0.255.0
+    - x
+    - y
+    - t
+    - u
     CorrectAnswer: 2
-  - Question: "Jak\u0105 funkcje pe\u0142ni brama domyslna?"
+  - Question: "Czy iloczyn dowolnych pi\u0119ciu kolejnych liczb ca\u0142kowitych
+      jest podzielny przez 10?"
     Answers:
-    - tuttifrutti
-    - "Mo\u017Cna wej\u015B\u0107 do domu"
-    - Otwiera tajne grota
-    - "Brama domy\u015Blna pe\u0142ni funkcj\u0119 rutera"
-    CorrectAnswer: 4
-  - Question: Czym jest DNS?
+    - "Tak, ale w niekt\xF3rych przypadkach tylko"
+    - Nie zawsze
+    - Tak
+    - Nie
+    CorrectAnswer: 3
+  - Question: "Skrzynia ma kszta\u0142t prostopad\u0142o\u015Bcianu. Pod\u0142oga
+      skrzyni ma wymiary 1,5 m i 1,2 m, a wysoko\u015B\u0107 skrzyni jest r\xF3wna
+      1 m. Piasek wsypany do skrzyni zajmuje 3/4 jej pojemno\u015Bci. Ile metr\xF3w
+      sze\u015Bciennych piasku wsypano do skrzyni?"
     Answers:
-    - "us\u0142uga zapewniaj\u0105ca powi\u0105zanie domeny z adresem IP danego serwera"
-    - Wtyczka do sieci
-    - DamageNotSet
-    - Gra planszowa
-    CorrectAnswer: 1
+    - 1
+    - 1,35
+    - 1,5
+    - 2
+    CorrectAnswer: 2
+  - Question: "Warto\u015B\u0107 wyra\u017Cenia \u221A3(\u221A27\u2212\u221A12) jest
+      r\xF3wna:"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    CorrectAnswer: 3
   options:
   - {fileID: 1222845392}
   - {fileID: 2080529585}
@@ -1342,7 +1349,7 @@ MonoBehaviour:
   QuestionTxt: {fileID: 1655453925}
   goodAnswerIndicator: {fileID: 251960768}
   badAnswerIndicator: {fileID: 994713434}
-  requiredCorrectAnswers: 3
+  requiredCorrectAnswers: 4
 --- !u!4 &1760281368
 Transform:
   m_ObjectHideFlags: 0
