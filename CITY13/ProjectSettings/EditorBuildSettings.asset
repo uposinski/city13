@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/3.unity
     guid: 30bd6a7e47ad5b24a9e8301b958ebf0e
   - enabled: 1
+    path: Assets/Scenes/Cutscena.unity
+    guid: 7cccdd167aff2b44a8f2e3d52f4b80c9
+  - enabled: 1
     path: Assets/grakoniec.unity
     guid: 649252698a3716f4ba5a049f9baa8dda
   m_configObjects: {}
